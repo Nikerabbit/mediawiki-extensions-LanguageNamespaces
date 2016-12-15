@@ -1,0 +1,22 @@
+{
+	"name": "Language Namespaces",
+	"version": "1.0.0",
+	"author": [
+		"Niklas Laxström"
+	],
+	"url": "https://github.com/Nikerabbit/mediawiki-extensions-LanguageNamespaces",
+	"description": "Language-dependent namespace names",
+	"license-name": "GPL-2.0+",
+	"Hooks": {
+		"MediaWikiServices": "LanguageNamespaces::onMediaWikiServices",
+		"LocalisationCacheRecache": "LanguageNamespaces::onLocalisationCacheRecache"
+	},
+	"AutoloadClasses": {
+		"LanguageNamespaces": "LanguageNamespaces.php",
+		"LanguageNamespacesTitleCodec": "LanguageNamespacesTitleCodec.php"
+	},
+	"config": {
+		"wgLanguageNamespaces": []
+	},
+	"manifest_version": 1
+}
