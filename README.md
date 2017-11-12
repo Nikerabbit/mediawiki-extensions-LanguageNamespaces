@@ -28,7 +28,7 @@ Edit includes/Title/MediaWikiTitleCodec.php. In the beginning of getNamespaceNam
 # Configuration
 Edit LocalSettings.php as follows:
 ```
-wfLoadExtension( 'LanguageNames' );
+wfLoadExtension( 'LanguageNamespaces' );
 ```
 
 To define language dependent namespace aliases, you can use the `$wgLanguageNamespaces` setting:
