@@ -7,7 +7,7 @@
 		"localization"
 	],
 	"homepage": "https://github.com/Nikerabbit/mediawiki-extensions-LanguageNamespaces",
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"authors": [
 		{
 			"name": "Niklas Laxström",

@@ -6,7 +6,7 @@
 	],
 	"url": "https://github.com/Nikerabbit/mediawiki-extensions-LanguageNamespaces",
 	"description": "Language-dependent namespace names",
-	"license-name": "GPL-2.0+",
+	"license-name": "GPL-2.0-or-later",
 	"Hooks": {
 		"MediaWikiServices": "LanguageNamespaces::onMediaWikiServices",
 		"LocalisationCacheRecache": "LanguageNamespaces::onLocalisationCacheRecache"
